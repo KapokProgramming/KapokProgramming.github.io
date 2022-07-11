@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 #topic-text {
     margin: auto;
     font-size: 2em;
@@ -11,4 +15,10 @@
     height: auto;
     background-color: #444;
     color: #fff;
+}
+
+.image {
+    align-items: center;
+    width: 30rem;
+    height: 45rem;
 }
