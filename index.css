@@ -3,8 +3,11 @@
     font-size: 2em;
 }
 #topic-box {
+    overflow: hidden;
+    position: absolute;
     text-align: center;
     padding: 1em;
+    width: 100%;
     height: auto;
     background-color: #444;
     color: #fff;
