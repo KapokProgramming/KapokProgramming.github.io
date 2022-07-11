@@ -1,15 +1,45 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html5>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
-        <title>Hello, World!</title>
+        <title>Kapok Programming</title>
+        <script src="./script.js"></script>
+        <script>
+            (function (d) {
+                var config = {
+                    kitId: 'ioy8hps',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                    h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+            })(document);
+            </script>
     </head>
     <body>
+        <div id="nav-box">
+            <a class="topic-text nav-item" href="#">
+                Kapok Coding
+            </a>
+            <a class="nav-item" href="#">
+                Home
+            </a>
+            <a class="nav-item" href="#">
+                About
+            </a>
+            <a class="nav-item" href="#">
+                Portfolio
+            </a>
+        </div>
         <div id="topic-box">
-            <p id="topic-text">
-                <h2>Hello, World! </h2>
-                <img src="./static/img/test-image.jpg" class="image">
+            <p id="middle-text">
+                KAPOK CODING
             </p>
         </div>
+        <center>
+            <img src="./static/img/test-image.jpg" class="image">
+        </center>
     </body>
 </html>
