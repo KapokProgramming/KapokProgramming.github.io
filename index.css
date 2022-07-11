@@ -1,0 +1,11 @@
+#topic-text {
+    margin: auto;
+    font-size: 2em;
+}
+#topic-box {
+    text-align: center;
+    padding: 1em;
+    height: auto;
+    background-color: #444;
+    color: #fff;
+}
