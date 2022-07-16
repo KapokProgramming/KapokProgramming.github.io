@@ -16,23 +16,41 @@
                 },
                     h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
             })(document);
-            </script>
+        </script>
+
     </head>
     <body>
-        <div id="nav-box">
-            <a class="topic-text nav-item" href="#">
+        <div id="nav-box"> 
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+            <a class="topic-text nav-item nav-primary" href="index.html">
                 Kapok Coding
             </a>
-            <a class="nav-item" href="#">
+            <a class="nav-item nav-menu" href="index.html">
                 Home
             </a>
-            <a class="nav-item" href="#">
+            <a class="nav-item nav-menu" href="#">
                 About
             </a>
-            <a class="nav-item" href="#">
+            <a class="nav-item nav-menu" href="#">
                 Portfolio
             </a>
         </div>
+
+        <div class="portrait-nav">
+
+            <a class="" href="index.html">
+                Home
+            </a>
+            <a class="u" href="#">
+                About
+            </a>
+            <a class="" href="#">
+                Portfolio
+            </a>
+        </div>
+        
         <div id="topic-box">
             <p id="middle-text">
                 KAPOK CODING
